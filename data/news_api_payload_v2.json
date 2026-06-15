@@ -1,0 +1,127 @@
+{
+  "persist": false,
+  "similarity_threshold": 0.65,
+  "sentiment_provider": "auto",
+  "items": [
+    {
+      "source": "interfax.ru",
+      "url": "https://interfax.ru/business/novatek-production-rise-2026",
+      "published_at": "2026-06-16T07:10:00+00:00",
+      "title": "Novatek reports significant production growth",
+      "body": "The company posted very strong quarterly growth and improved export margins.",
+      "company_name": "Novatek",
+      "location": "Moscow",
+      "industry": "Energy"
+    },
+    {
+      "source": "rbc.ru",
+      "url": "https://rbc.ru/economics/novatek-faces-logistics-risk-2026",
+      "published_at": "2026-06-16T08:30:00+00:00",
+      "title": "Novatek warns of logistics risk in Q3",
+      "body": "Management said there is a noticeable risk of supply delays, but no major losses expected.",
+      "company_name": "Novatek",
+      "location": "Moscow",
+      "industry": "Energy"
+    },
+    {
+      "source": "kommersant.ru",
+      "url": "https://kommersant.ru/doc/megafon-launches-b2b-platform-2026",
+      "published_at": "2026-06-16T06:55:00+00:00",
+      "title": "Megafon launches new B2B digital platform",
+      "body": "The operator announced a neutral market expansion plan and partnership roadmap.",
+      "company_name": "Megafon",
+      "location": "Moscow",
+      "industry": "Telecom"
+    },
+    {
+      "source": "vedomosti.ru",
+      "url": "https://vedomosti.ru/finance/alfa-bank-profit-decline-2026",
+      "published_at": "2026-06-16T09:05:00+00:00",
+      "title": "Alfa-Bank reports temporary profit decline",
+      "body": "Quarterly results showed decline in net profit and higher cost of risk.",
+      "company_name": "Alfa-Bank",
+      "location": "Moscow",
+      "industry": "Finance"
+    },
+    {
+      "source": "tass.ru",
+      "url": "https://tass.ru/ekonomika/alfa-bank-capital-position-stable-2026",
+      "published_at": "2026-06-16T10:20:00+00:00",
+      "title": "Alfa-Bank says capital position remains stable",
+      "body": "The bank does not expect a crisis and sees moderate recovery in the second half.",
+      "company_name": "Alfa-Bank",
+      "location": "Moscow",
+      "industry": "Finance"
+    },
+    {
+      "source": "forbes.ru",
+      "url": "https://forbes.ru/tehnologii/ozon-record-orders-2026",
+      "published_at": "2026-06-16T11:00:00+00:00",
+      "title": "Ozon reaches record order volume",
+      "body": "Analysts call the result a very positive signal for revenue growth.",
+      "company_name": "Ozon",
+      "location": "Moscow",
+      "industry": "E-commerce"
+    },
+    {
+      "source": "ria.ru",
+      "url": "https://ria.ru/economy/ozon-warehouse-disruption-2026",
+      "published_at": "2026-06-16T11:45:00+00:00",
+      "title": "Ozon suffers warehouse disruption",
+      "body": "A regional incident caused shipment delays and potential short-term losses.",
+      "company_name": "Ozon",
+      "location": "Moscow",
+      "industry": "E-commerce"
+    },
+    {
+      "source": "cnews.ru",
+      "url": "https://cnews.ru/news/top/positive_operating_margin_mts_2026",
+      "published_at": "2026-06-16T12:10:00+00:00",
+      "title": "MTS improves operating margin",
+      "body": "The company reported better than expected profitability and stable cash flow.",
+      "company_name": "MTS",
+      "location": "Moscow",
+      "industry": "Telecom"
+    },
+    {
+      "source": "1prime.ru",
+      "url": "https://1prime.ru/companies/mts-denies-major-losses-2026",
+      "published_at": "2026-06-16T12:50:00+00:00",
+      "title": "MTS denies rumors about major losses",
+      "body": "Management said there are no significant losses and no severe liquidity problems.",
+      "company_name": "MTS",
+      "location": "Moscow",
+      "industry": "Telecom"
+    },
+    {
+      "source": "iz.ru",
+      "url": "https://iz.ru/news/severstal-maintenance-impact-2026",
+      "published_at": "2026-06-16T13:20:00+00:00",
+      "title": "Severstal maintenance impacts output",
+      "body": "Planned maintenance led to partial output decline, while annual guidance is unchanged.",
+      "company_name": "Severstal",
+      "location": "Cherepovets",
+      "industry": "Metals"
+    },
+    {
+      "source": "interfax.ru",
+      "url": "https://interfax.ru/business/severstal-new-contracts-2026",
+      "published_at": "2026-06-16T14:00:00+00:00",
+      "title": "Severstal signs new supply contracts",
+      "body": "The contracts support stable demand and moderate growth next quarter.",
+      "company_name": "Severstal",
+      "location": "Cherepovets",
+      "industry": "Metals"
+    },
+    {
+      "source": "tass.ru",
+      "url": "https://tass.ru/ekonomika/positive-gdp-outlook-transport-2026",
+      "published_at": "2026-06-16T14:30:00+00:00",
+      "title": "Globaltrans comments on positive freight outlook",
+      "body": "The company expects a stable market and does not see a sharp decline in demand.",
+      "company_name": "Globaltrans",
+      "location": "Moscow",
+      "industry": "Transport"
+    }
+  ]
+}

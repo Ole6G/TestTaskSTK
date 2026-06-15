@@ -1,0 +1,107 @@
+{
+  "persist": false,
+  "similarity_threshold": 0.7,
+  "sentiment_provider": "auto",
+  "items": [
+    {
+      "source": "rbc.ru",
+      "url": "https://rbc.ru/news/gazprom-q1-profit-growth",
+      "published_at": "2026-06-15T06:30:00+00:00",
+      "title": "Gazprom reports profit growth in Q1",
+      "body": "Gazprom showed strong growth and record profit in the first quarter.",
+      "company_name": "Gazprom",
+      "location": "Moscow",
+      "industry": "Energy"
+    },
+    {
+      "source": "vedomosti.ru",
+      "url": "https://vedomosti.ru/news/gazprom-record-profit-confirmed",
+      "published_at": "2026-06-15T07:20:00+00:00",
+      "title": "Record profit confirmed for Gazprom",
+      "body": "Analysts confirm profit increase and stable financial outlook for Gazprom.",
+      "company_name": "Gazprom",
+      "location": "Moscow",
+      "industry": "Energy"
+    },
+    {
+      "source": "kommersant.ru",
+      "url": "https://kommersant.ru/news/gazprom-gets-regulatory-fine",
+      "published_at": "2026-06-15T08:10:00+00:00",
+      "title": "Gazprom receives regulatory fine",
+      "body": "The company faces a large fine and additional risk due to compliance issues.",
+      "company_name": "Gazprom",
+      "location": "Moscow",
+      "industry": "Energy"
+    },
+    {
+      "source": "interfax.ru",
+      "url": "https://interfax.ru/news/sber-launches-regional-office",
+      "published_at": "2026-06-15T07:45:00+00:00",
+      "title": "Sber launches new regional office",
+      "body": "The bank announced expansion in a regional market and development plans.",
+      "company_name": "Sber",
+      "location": "Moscow",
+      "industry": "Finance"
+    },
+    {
+      "source": "tass.ru",
+      "url": "https://tass.ru/economy/sber-net-profit-rise",
+      "published_at": "2026-06-15T09:00:00+00:00",
+      "title": "Sber net profit rises on retail growth",
+      "body": "Sber posted profit increase with strong retail lending dynamics.",
+      "company_name": "Sber",
+      "location": "Moscow",
+      "industry": "Finance"
+    },
+    {
+      "source": "cnews.ru",
+      "url": "https://cnews.ru/news/yandex-cloud-service-update",
+      "published_at": "2026-06-15T08:30:00+00:00",
+      "title": "Yandex updates cloud services portfolio",
+      "body": "The company introduced new cloud options for enterprise users.",
+      "company_name": "Yandex",
+      "location": "Moscow",
+      "industry": "Technology"
+    },
+    {
+      "source": "forbes.ru",
+      "url": "https://forbes.ru/tehnologii/yandex-strong-quarterly-results",
+      "published_at": "2026-06-15T09:10:00+00:00",
+      "title": "Yandex reports strong quarterly results",
+      "body": "Revenue growth and positive margin trend support optimistic expectations.",
+      "company_name": "Yandex",
+      "location": "Moscow",
+      "industry": "Technology"
+    },
+    {
+      "source": "ria.ru",
+      "url": "https://ria.ru/economy/nornickel-output-decline",
+      "published_at": "2026-06-15T05:55:00+00:00",
+      "title": "Nornickel reports temporary output decline",
+      "body": "Production decline was linked to maintenance and short-term risk factors.",
+      "company_name": "Nornickel",
+      "location": "Norilsk",
+      "industry": "Metals"
+    },
+    {
+      "source": "iz.ru",
+      "url": "https://iz.ru/news/nornickel-investment-program-expanded",
+      "published_at": "2026-06-15T10:05:00+00:00",
+      "title": "Nornickel expands investment program",
+      "body": "The company plans development projects and expects long-term growth.",
+      "company_name": "Nornickel",
+      "location": "Norilsk",
+      "industry": "Metals"
+    },
+    {
+      "source": "1prime.ru",
+      "url": "https://1prime.ru/companies/lukoil-dividend-proposal",
+      "published_at": "2026-06-15T10:20:00+00:00",
+      "title": "Lukoil proposes dividend payments",
+      "body": "Investors reacted positively to stable dividend policy and profit outlook.",
+      "company_name": "Lukoil",
+      "location": "Moscow",
+      "industry": "Energy"
+    }
+  ]
+}

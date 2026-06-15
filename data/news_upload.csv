@@ -1,0 +1,11 @@
+source,url,published_at,title,body,company_name,location,industry
+rbc.ru,https://rbc.ru/news/gazprom-profit-growth-csv,2026-06-15T06:35:00Z,Gazprom profit growth in Q1,Gazprom reported growth and strong profit dynamics in Q1.,Gazprom,Moscow,Energy
+vedomosti.ru,https://vedomosti.ru/news/gazprom-fine-csv,2026-06-15T08:15:00Z,Gazprom gets regulatory fine,The company received a fine and faced additional risk.,Gazprom,Moscow,Energy
+interfax.ru,https://interfax.ru/news/sber-branch-csv,2026-06-15T07:50:00Z,Sber opens a regional branch,Sber announced expansion and development in a new region.,Sber,Moscow,Finance
+tass.ru,https://tass.ru/economy/sber-profit-csv,2026-06-15T09:05:00Z,Sber reports profit increase,The bank posted profit growth driven by retail business.,Sber,Moscow,Finance
+cnews.ru,https://cnews.ru/news/yandex-cloud-csv,2026-06-15T08:40:00Z,Yandex cloud update,Yandex introduced an updated cloud product line.,Yandex,Moscow,Technology
+forbes.ru,https://forbes.ru/tehnologii/yandex-positive-margin-csv,2026-06-15T09:15:00Z,Yandex sees positive margin trend,Strong quarter supports positive sentiment among analysts.,Yandex,Moscow,Technology
+ria.ru,https://ria.ru/economy/nornickel-decline-csv,2026-06-15T06:00:00Z,Nornickel output decline,Nornickel recorded decline and short term risk due to maintenance.,Nornickel,Norilsk,Metals
+iz.ru,https://iz.ru/news/nornickel-investment-csv,2026-06-15T10:10:00Z,Nornickel expands investments,The company announced development plans and long term growth.,Nornickel,Norilsk,Metals
+1prime.ru,https://1prime.ru/companies/lukoil-dividend-csv,2026-06-15T10:25:00Z,Lukoil dividend proposal,Lukoil presented stable dividend policy and profit outlook.,Lukoil,Moscow,Energy
+kommersant.ru,https://kommersant.ru/news/lukoil-new-project-csv,2026-06-15T11:00:00Z,Lukoil starts new project,The company launched a new project and optimistic growth targets.,Lukoil,Moscow,Energy
