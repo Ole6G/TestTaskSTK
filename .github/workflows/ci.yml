@@ -98,7 +98,8 @@ jobs:
               raise SystemExit("PostgreSQL is not ready")
           PY
           mkdir -p reports
-          python -m pytest --junitxml=reports/junit.xml
+          set -o pipefail
+          python -m pytest --junitxml=reports/junit.xml 2>&1 | tee reports/pytest.log
 
       - name: Ensure JUnit Report Exists
         if: always()
@@ -128,18 +129,48 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-report-junit
-          path: reports/junit.xml
+          path: |
+            reports/junit.xml
+            reports/pytest.log
           if-no-files-found: error
+
+      - name: Write JUnit Metrics Summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          report = Path("reports/junit.xml")
+          tests = failures = errors = skipped = 0
+          if report.exists():
+              root = ET.parse(report).getroot()
+              if root.tag == "testsuite":
+                  suites = [root]
+              else:
+                  suites = list(root.findall("testsuite"))
+              for suite in suites:
+                  tests += int(suite.attrib.get("tests", 0))
+                  failures += int(suite.attrib.get("failures", 0))
+                  errors += int(suite.attrib.get("errors", 0))
+                  skipped += int(suite.attrib.get("skipped", 0))
+
+          summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          with summary.open("a", encoding="utf-8") as out:
+              out.write(f"- Metrics: tests={tests}, failures={failures}, errors={errors}, skipped={skipped}\n")
+          PY
 
       - name: Write Test Report Summary
         if: always()
         run: |
           echo "## Test Report" >> "$GITHUB_STEP_SUMMARY"
           echo "- JUnit report generated at \`reports/junit.xml\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Raw pytest log generated at \`reports/pytest.log\`" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pytest step outcome: \`${{ steps.pytest.outcome }}\`" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Fail Job If Tests Failed
-        if: steps.pytest.outcome != 'success'
+      - name: Fail Job If Pytest Failed
+        if: steps.pytest.outcome == 'failure'
         run: |
           echo "Pytest failed. See uploaded JUnit report and logs."
           exit 1
